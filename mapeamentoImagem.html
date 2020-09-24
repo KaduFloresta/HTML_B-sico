@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Mapeamento de Imagem</title>
+</head>
+
+<body>
+    <p>Fazendo o mapeamento de uma imagem para menu na <i>web</i>.</p>
+    <!-- Primeiro inserimos uma imagem da qual usaremos o <MAP> -->
+    <img src="img/imagem_menu.png" usemap="#menu" border="1">
+
+    <!-- Mapeamento da imagem acima -->
+    <map name="menu">
+        <!-- Usaremos o formato (SHAPE) retangular (rect) -->
+        <!-- Depois colocaremos a coordenadas da imagem. -->
+        <!-- Por fim usaremos o HREF para linkar a parte selecionada da imagem. -->
+        <area shape="rect" coords="29, 20, 425, 148" href="http://www.fb.org.br" alt="Item 1">
+        <area shape="rect" coords="29, 172, 425, 298" href="http://www.ev.org.br" alt="Item 2">
+        <area shape="rect" coords="29, 320, 425, 448 " href="http://www.educacao.org.br" alt="Item 3">
+        <area shape="rect" coords="29, 469, 425, 596" href="http://www.google.com.br" alt="Item 4">
+        <area shape="rect" coords="29, 620, 425, 743" href="http://www.fb.org.br" alt="Item 5">
+    </map>
+
+</body>
+
+</html>
