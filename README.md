@@ -31,12 +31,14 @@
 2. Códigos com o melhor dos elementos básicos do HTML.
 3. Nesse repositório contém:
    
-  - Introdução.
-  - Formatação de textos.
-  - Inserir Imagens.
-  - Links.
-  - Listas.
-  - Combinação de <i>Tags</i>.
-  - Mapeamento de Imagem.
+-	[X] Introdução.
+-	[X] Formatação de textos.
+-	[X] Inserir Imagens.
+-	[X] Links.
+-	[X] Listas.
+-	[X] Combinação de <i>Tags</i>.
+-	[X] Mapeamento de Imagem.
 
 **DIVIRTA-SE!!!**
+
+---
